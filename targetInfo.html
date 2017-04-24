@@ -15,6 +15,8 @@
         <ul class="navbar-nav ">
           <li class="nav-item active"> <a class="nav-link" href="#">Targets</a> </li>
           <li class="nav-item"> <a class="nav-link" href="#">Environments</a> </li>
+          <form class="form-inline">
+            <div class="form-group"> <input type="text" class="form-control" placeholder="Search for target..."> </div> <button type="submit" class="btn btn-primary">Search</button> </form>
         </ul>
       </div>
     </div>
@@ -50,8 +52,22 @@
               <h6 class="card-subtitle text-muted my-1">Latest Check: OK</h6> <a href="#" class="btn btn-success">Running Checks</a> <a href="#" class="btn btn-danger">Stop Running Checks</a> </div>
           </div>
         </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-block">
+              <h4 class="card-title">Environment 2</h4>
+              <h6 class="card-subtitle text-muted my-1">Overall Checks: 654321</h6>
+              <h6 class="card-subtitle text-muted my-1">Latest Check: WARN</h6> <a href="#" class="btn btn-success">Running Checks</a> <a href="#" class="btn btn-danger">Stop Running Checks</a> </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-block">
+              <h4 class="card-title">Environment 3</h4>
+              <h6 class="card-subtitle text-muted my-1">Overall Checks: 0</h6>
+              <h6 class="card-subtitle text-muted my-1">Latest Check: None</h6> <a href="#" class="btn btn-warning">Not Running Checks</a> <a href="#" class="btn btn-success">Start Running Checks</a> </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
